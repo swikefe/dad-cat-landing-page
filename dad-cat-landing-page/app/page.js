@@ -269,15 +269,15 @@ export default function Home() {
               <h4>1,000,000,000 $DADSCAT</h4>
             </div>
 
-            <div className={styles.box} style={{marginTop: "2rem"}}>
+            <div className={styles.box} style={{marginTop: "2rem", padding: "24px 72px"}}>
               <h1>Token Address</h1>
               <h4 className={styles.tokAdd}>
-                EZUFNJMZTBpungQX2czEb<br />9ZyCMjtdzsDGMK4UywDUa1F
+                -
               </h4>
-              <button className={styles.copyBtn} onClick={() => {
+              {/* <button className={styles.copyBtn} onClick={() => {
                 navigator.clipboard.writeText('EZUFNJMZTBpungQX2czEb9ZyCMjtdzsDGMK4UywDUa1F')
                 setCopyText('Copied')
-              }}>{copyText}</button>
+              }}>{copyText}</button> */}
             </div>
       </div>
     </main>
